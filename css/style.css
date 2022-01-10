@@ -128,10 +128,12 @@ nav ul li {
 .partners {
     padding: 30px 0;
 }
+
 .partners h2 {
     font-size: 25px;
     text-align: center;
 }
+
 .containerPartners {
     display: flex;
     flex-wrap: wrap;
@@ -139,17 +141,90 @@ nav ul li {
     margin: 15px auto;
     justify-content: space-around;
 }
-.partners img{
+
+.partners img {
     border-radius: 50%;
     width: 90px;
     height: 90px;
 }
+
 .partners h3 {
     font-size: 18px;
     padding-bottom: 15px;
+    font-weight: normal;
 }
 
 /* End Section Partners */
+
+/* Section Team */
+
+/* End Section Team */
+
+/* Section Contact */
+.contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+}
+
+.contact h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.Name_LastName {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Name_LastName input {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 10px;
+}
+
+.Email_Phone {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Email_Phone input {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 10px;
+}
+
+.contact textarea {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+    border: none;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: flex;
+    margin: 0 auto;
+}
+
+.contact a {
+    background-color: #FF7D3B;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 9px 35px;
+}
+
+/* End Section Contact */
 
 /* Footer */
 
@@ -186,14 +261,15 @@ footer h2 {
 }
 
 .Links h2 {
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .Links a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: normal;
+    padding-top: 10px;
 }
 
 .Newsletter h2 {
