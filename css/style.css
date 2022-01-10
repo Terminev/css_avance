@@ -36,6 +36,8 @@ nav ul li {
     background-color: #FF7D3B;
 }
 
+/* End Header */
+
 /* Section Presentation */
 
 .SectionPresentation {
@@ -68,9 +70,12 @@ nav ul li {
     border-radius: 10px;
 }
 
+/* End Section Presentation */
+
 /* Section Articles */
 .Article {
     background-color: #FAF8FB;
+    padding-bottom: 10px;
 }
 
 .Article h2 {
@@ -81,7 +86,7 @@ nav ul li {
 }
 
 .containerArticle {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 15px;
     box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
@@ -109,7 +114,42 @@ nav ul li {
     padding-top: 15px;
 }
 
+/* End Section Articles */
 
+/* Section Price */
+
+/* End Section Price */
+
+/* Section Testimonial */
+
+/* End Section Testimonial */
+
+/* Section Partners */
+.partners {
+    padding: 30px 0;
+}
+.partners h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.containerPartners {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 15px auto;
+    justify-content: space-around;
+}
+.partners img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.partners h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+/* End Section Partners */
 
 /* Footer */
 
@@ -175,3 +215,5 @@ footer h2 {
     border-radius: 10px;
     text-decoration: none;
 }
+
+/* End Footer */
