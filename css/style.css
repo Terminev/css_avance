@@ -118,6 +118,86 @@ nav ul li {
 
 /* Section Price */
 
+.priceSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+}
+
+.priceSection h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.priceContainer {
+    background-color: #FAF8FB;
+    width: 80%;
+    margin: 100px auto 0 auto;
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+    padding-bottom: 30px;
+}
+
+.priceName {
+    background-color: #451CC0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.priceName h3 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 35px;
+}
+
+.priceContainer ul {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.priceContainer li {
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.priceAmount {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    background-color: #FAF8FB;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 0;
+    left: 50%;
+}
+
+.priceContainer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #FF7D3B;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.buttonDiscover {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 /* End Section Price */
 
 /* Section Testimonial */
