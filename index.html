@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div class="menuBurger" id="menuburger" style="display: grid;">
+        <div class="menuBurger" id="menuburger" style="display: none;">
             <div class="closeIcon" id="closeIcon">
                 <img src="img/close.png" onclick="closeBurger()" alt="button close burger">
             </div>
@@ -27,8 +27,20 @@
         </div>
         <div class="header-container">
             <h1>Nom du thème</h1>
-            <img src="img/ci_hamburger.png" alt="Burger Icon" id="burgerIcon">
+            <img src="img/ci_hamburger.png" alt="Burger Icon" onclick="Burger()">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Testimonials</a> </li>
+                    <li><a href="#">Our Partners</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li class="linkPrice"><a href="#">Price</a></li>
+                </ul>
+            </div>
         </div>
+
 
     </header>
 
@@ -44,86 +56,97 @@
 
         <section class="Article">
             <h2>Last Articles</h2>
-            <div class="containerArticle">
-                <img src="img/articleImg.jpg" alt="img article">
-                <p>10 décembre 2021 - Auteur</p>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu morbi
-                    integer adipiscing sapien. Risus...</p>
-            </div>
+            <div class="articleContainer">
+                <div class="lastArticle">
+                    <img src="img/articleImg.jpg" alt="img article">
+                    <p>10 décembre 2021 - Auteur</p>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                        morbi
+                        integer adipiscing sapien. Risus...</p>
+                </div>
 
-            <div class="containerArticle">
-                <img src="img/articleImg.jpg" alt="img article">
-                <p>10 décembre 2021 - Auteur</p>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu morbi
-                    integer adipiscing sapien. Risus...</p>
-            </div>
+                <div class="lastArticle">
+                    <img src="img/articleImg.jpg" alt="img article">
+                    <p>10 décembre 2021 - Auteur</p>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                        morbi
+                        integer adipiscing sapien. Risus...</p>
+                </div>
 
-            <div class="containerArticle">
-                <img src="img/articleImg.jpg" alt="img article">
-                <p>10 décembre 2021 - Auteur</p>
-                <h3>Lorem ipsum dolor sit amet</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu morbi
-                    integer adipiscing sapien. Risus...</p>
+                <div class="lastArticle">
+                    <img src="img/articleImg.jpg" alt="img article">
+                    <p>10 décembre 2021 - Auteur</p>
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                        morbi
+                        integer adipiscing sapien. Risus...</p>
+                </div>
             </div>
         </section>
 
         <section class="priceSection">
             <h2>Price</h2>
             <div class="priceContainer">
-                <div class="priceAmount">
-                    80 €
-                </div>
-                <div class="priceName">
-                    <h3>Basic</h3>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                    </ul>
-                    <div class="buttonDiscover">
-                        <a href="#">Discover</a>
+                <div class="priceArticle">
+                    <div class="priceAmount">
+                        80 €
+                    </div>
+                    <div class="priceName">
+                        <h3>Basic</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="priceContainer">
-                <div class="priceAmount">
-                    120 €
-                </div>
-                <div class="priceName">
-                    <h3>Standard</h3>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                    </ul>
-                    <div class="buttonDiscover">
-                        <a href="#">Discover</a>
+                <div class="priceArticle">
+                    <div class="priceAmount">
+                        120 €
+                    </div>
+                    <div class="priceName">
+                        <h3>Standard</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
+                        <div class="recommended">
+                            <img src="img/check.png" alt="img recommended">
+                            <h4>Recommended</h4>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="priceContainer">
-                <div class="priceAmount">
-                    200 €
-                </div>
-                <div class="priceName">
-                    <h3>Premium</h3>
-                </div>
-                <div>
-                    <ul>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                        <li>Lorem ipsum dolor</li>
-                    </ul>
-                    <div class="buttonDiscover">
-                        <a href="#">Discover</a>
+                <div class="priceArticle">
+                    <div class="priceAmount">
+                        200 €
+                    </div>
+                    <div class="priceName">
+                        <h3>Premium</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -228,9 +251,9 @@
         <section class="ourTeam">
             <h2>Our Team</h2>
             <div class="teamContainer">
-                <img src="img/ourTeam.jpg" alt="img team" id="team1">
-                <img src="img/ourTeam.jpg" alt="img team" id="team2">
-                <img src="img/ourTeam.jpg" alt="img team" id="team3">
+                <img src="img/ourTeam.jpg" alt="img team" onclick="DisplayFistUser()">
+                <img src="img/ourTeam.jpg" alt="img team" onclick="DisplaySecondUser()">
+                <img src="img/ourTeam.jpg" alt="img team" onclick="DisplayThirdUser()">
             </div>
             <div class="showPeople" style="display: block;" id="people1show">
                 <div class="message">

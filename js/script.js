@@ -1,7 +1,3 @@
-const people1 = document.getElementById("team1");
-const people2 = document.getElementById("team2");
-const people3 = document.getElementById("team3");
-
 const people1show = document.getElementById('people1show')
 const people2show = document.getElementById('people2show')
 const people3show = document.getElementById('people3show')
@@ -10,21 +6,11 @@ const testimonial1 = document.getElementById('testimonial1')
 const testimonial2 = document.getElementById('testimonial2')
 const testimonial3 = document.getElementById('testimonial3')
 
-const burgerIcon = document.getElementById('burgerIcon')
 const burgerMenu = document.getElementById('menuburger')
 
-people1.addEventListener('click', DisplayFistUser);
-people2.addEventListener('click', DisplaySecondUser);
-people3.addEventListener('click', DisplayThirdUser);
-
-burgerIcon.addEventListener('click', Burger);
 
 function Burger(){
-    if(burgerMenu.style.display == "grid"){
-        burgerMenu.style.display = "none"
-    }else{
-        burgerMenu.style.display = "grid"
-    };
+    burgerMenu.style.display = "grid"
 };
 
 function closeBurger(){
