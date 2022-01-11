@@ -10,9 +10,26 @@ const testimonial1 = document.getElementById('testimonial1')
 const testimonial2 = document.getElementById('testimonial2')
 const testimonial3 = document.getElementById('testimonial3')
 
+const burgerIcon = document.getElementById('burgerIcon')
+const burgerMenu = document.getElementById('menuburger')
+
 people1.addEventListener('click', DisplayFistUser);
 people2.addEventListener('click', DisplaySecondUser);
 people3.addEventListener('click', DisplayThirdUser);
+
+burgerIcon.addEventListener('click', Burger);
+
+function Burger(){
+    if(burgerMenu.style.display == "grid"){
+        burgerMenu.style.display = "none"
+    }else{
+        burgerMenu.style.display = "grid"
+    };
+};
+
+function closeBurger(){
+    burgerMenu.style.display = "none"
+};
 
 function DisplayFistUser(){
     if(people1show.style.display != "block" ){

@@ -11,10 +11,25 @@
 
 <body>
     <header>
+        <div class="menuBurger" id="menuburger" style="display: grid;">
+            <div class="closeIcon" id="closeIcon">
+                <img src="img/close.png" onclick="closeBurger()" alt="button close burger">
+            </div>
+            <ul>
+                <li><a href="#" onclick="closeBurger()">Home</a></li>
+                <li><a href="#" onclick="closeBurger()">Testimonials</a> </li>
+                <li><a href="#" onclick="closeBurger()">Our Partners</a></li>
+                <li><a href="#" onclick="closeBurger()">Contact Us</a></li>
+                <li><a href="#" onclick="closeBurger()">Blog</a></li>
+                <li><a href="#" onclick="closeBurger()">Our Team</a></li>
+                <li><a href="#" onclick="closeBurger()">Price</a></li>
+            </ul>
+        </div>
         <div class="header-container">
             <h1>Nom du thème</h1>
-            <img src="img/ci_hamburger.png" alt="Burger Icon">
+            <img src="img/ci_hamburger.png" alt="Burger Icon" id="burgerIcon">
         </div>
+
     </header>
 
     <main>
@@ -116,10 +131,10 @@
         </section>
 
         <section class="testimonialSection">
-            <h2>Testimonial</h2>
+            <h2>Testimonials</h2>
             <div class="testimonialContainer">
                 <div class="testimonial" id="testimonial1" style="display: block;">
-                    <p>“ Tezst 1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
                         sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
                     <div class="bottomTestimonial">
                         <div class="imgName">
@@ -137,7 +152,7 @@
                 </div>
 
                 <div class="testimonial" id="testimonial2" style="display: none;">
-                    <p>Tezst 2Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
                         sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
                     <div class="bottomTestimonial">
                         <div class="imgName">
@@ -149,13 +164,13 @@
                             <img src="img/starYellow.png" alt="img star">
                             <img src="img/starYellow.png" alt="img star">
                             <img src="img/starYellow.png" alt="img star">
-                            <img src="img/starBlack.png" alt="img star">
+                            <img src="img/starYellow.png" alt="img star">
                         </div>
                     </div>
                 </div>
 
                 <div class="testimonial" id="testimonial3" style="display: none;">
-                    <p>“ Tezst 3Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
                         sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
                     <div class="bottomTestimonial">
                         <div class="imgName">
@@ -165,8 +180,8 @@
                         <div class="stars">
                             <img src="img/starYellow.png" alt="img star">
                             <img src="img/starYellow.png" alt="img star">
-                            <img src="img/starYellow.png" alt="img star">
-                            <img src="img/starYellow.png" alt="img star">
+                            <img src="img/starBlack.png" alt="img star">
+                            <img src="img/starBlack.png" alt="img star">
                             <img src="img/starBlack.png" alt="img star">
                         </div>
                     </div>

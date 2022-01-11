@@ -4,6 +4,32 @@
     font-family: sans-serif;
 }
 
+/* Burger */
+.menuBurger {
+    text-align: center;
+    height: 100vh;
+    line-height: 50px;
+    position: fixed;
+    background-color: #451CC0;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.menuBurger li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.closeIcon img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+/* End Burger */
+
 /* Header */
 
 header {
@@ -43,6 +69,8 @@ nav ul li {
 .SectionPresentation {
     text-align: center;
     height: 90vh;
+    display: grid;
+    align-content: center;
 }
 
 .SectionPresentation h2 {
@@ -58,7 +86,7 @@ nav ul li {
 
 .SectionPresentation img {
     margin-top: 40px;
-    width: 90%;
+    width: 100%;
 }
 
 .Discover {
@@ -204,10 +232,12 @@ nav ul li {
 
 .testimonialSection {
     background-color: #FAF8FB;
+    padding-bottom: 30px;
 }
 .testimonialSection h2 {
     font-size: 25px;
     text-align: center;
+    padding-top: 30px;
 }
 
 .testimonialContainer {
