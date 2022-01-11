@@ -202,6 +202,50 @@ nav ul li {
 
 /* Section Testimonial */
 
+.testimonialSection {
+    background-color: #FAF8FB;
+}
+.testimonialSection h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.testimonialContainer {
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.testimonial {
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+}
+.testimonial p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.bottomTestimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.imgName {
+    display: flex;
+    align-items: center;
+}
+.imgName h3 {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.imgName img {
+    border-radius: 50%;
+    width: 40px;
+}
 /* End Section Testimonial */
 
 /* Section Partners */
