@@ -240,6 +240,8 @@ nav ul li {
 
 .ourTeam {
     background-color: #FAF8FB;
+    padding-bottom: 30px;
+    
 }
 .ourTeam h2 {
     font-size: 25px;
@@ -265,9 +267,26 @@ nav ul li {
 }
 .message p {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
     width: 80%;
     margin: auto;
+}
+.imgPeople {
+    text-align: center;
+}
+
+.teamName_LastName {
+    padding: 28px 80px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.teamName_LastName h3{
+    font-size: 20px;
+}
+.teamName_LastName h4{
+    padding-top: 15px;
+    font-size: 16px;
 }
 
 /* End Section Team */
