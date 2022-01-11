@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
     <title>Css avancé</title>
 </head>
 
@@ -154,11 +153,11 @@
         <section class="ourTeam">
             <h2>Our Team</h2>
             <div class="teamContainer">
-                <img src="img/ourTeam.jpg" alt="img team">
-                <img src="img/ourTeam.jpg" alt="img team">
-                <img src="img/ourTeam.jpg" alt="img team">
+                <img src="img/ourTeam.jpg" alt="img team" id="team1">
+                <img src="img/ourTeam.jpg" alt="img team" id="team2">
+                <img src="img/ourTeam.jpg" alt="img team" id="team3">
             </div>
-            <div class="showPeople">
+            <div class="showPeople" style="display: block;" id="people1show">
                 <div class="message">
                     <img src="img/quote.png" alt="quote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -166,14 +165,38 @@
                 <div class="imgPeople">
                     <img src="img/imgTeam.png" alt="img people">
                     <div class="teamName_LastName">
-                        <h3>Prenom Nom</h3>
+                        <h3>test 1</h3>
                         <h4>Fonction</h4>
                     </div>
                 </div>
-                <div>
+            </div>
 
+            <div class="showPeople" style="display: none;" id="people2show">
+                <div class="message">
+                    <img src="img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
+                <div class="imgPeople">
+                    <img src="img/imgTeam.png" alt="img people">
+                    <div class="teamName_LastName">
+                        <h3>test 2</h3>
+                        <h4>Fonction</h4>
+                    </div>
+                </div>
+            </div>
 
+            <div class="showPeople" style="display: none;" id="people3show">
+                <div class="message">
+                    <img src="img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
+                <div class="imgPeople">
+                    <img src="img/imgTeam.png" alt="img people">
+                    <div class="teamName_LastName">
+                        <h3>test 3</h3>
+                        <h4>Fonction</h4>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -225,7 +248,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
