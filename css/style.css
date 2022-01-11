@@ -218,8 +218,8 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin: 15px auto;
-    justify-content: space-around;
+    margin: 15px auto 0 auto;
+    justify-content: space-between;
 }
 
 .partners img {
@@ -237,6 +237,38 @@ nav ul li {
 /* End Section Partners */
 
 /* Section Team */
+
+.ourTeam {
+    background-color: #FAF8FB;
+}
+.ourTeam h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0;
+}
+.teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.teamContainer img {
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+
+.showPeople {
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+.message p {
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
 
 /* End Section Team */
 
