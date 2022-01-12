@@ -27,14 +27,17 @@
     font-family: "Roboto-Medium";
     src: url("/fonts/Roboto/Roboto-Medium.ttf");
 }
+
 @font-face {
     font-family: "Roboto-Bold";
     src: url("/fonts/Roboto/Roboto-Bold.ttf");
 }
+
 @font-face {
     font-family: "OpenSans-Regular";
     src: url("/fonts/Open Sans/OpenSans-Regular.ttf");
 }
+
 @font-face {
     font-family: "OpenSans-Bold";
     src: url("/fonts/Open Sans/OpenSans-Bold.ttf");
@@ -757,7 +760,8 @@ footer h2 {
         display: flex;
         margin: 0 auto;
     }
-    .Article{
+
+    .Article {
         padding-bottom: 25px;
     }
 
@@ -782,7 +786,8 @@ footer h2 {
     .priceSection h2 {
         font-size: 36px;
     }
-    .priceSection{
+
+    .priceSection {
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -802,6 +807,7 @@ footer h2 {
         font-size: 36px;
         padding-top: 50px;
     }
+
     .testimonialSection {
         padding-bottom: 50px;
     }
@@ -814,6 +820,7 @@ footer h2 {
     .partners h2 {
         font-size: 36px;
     }
+
     .partners {
         padding: 50px 0;
     }
@@ -828,6 +835,7 @@ footer h2 {
         font-size: 36px;
         padding: 50px 0 30px 0;
     }
+
     .showPeople {
         display: flex;
         align-items: center;
@@ -852,7 +860,7 @@ footer h2 {
 
     /* responsive for contact */
 
-    .contact{
+    .contact {
         padding-bottom: 50px;
         padding-top: 50px;
     }
