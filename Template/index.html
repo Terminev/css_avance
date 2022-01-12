@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Name of the website -->
+    <title>Theme Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="menuBurger" id="menuburger" style="display: none;">
+            <!-- Cross for close the burger menu -->
+            <div class="closeIcon" id="closeIcon">
+                <!-- img cross burger menu -->
+                <img src="img/close.png" onclick="closeBurger()" alt="button close burger">
+            </div>
+            <!-- End Cross for close the burger menu -->
+            <!-- Mobile Navigation Menu -->
+            <ul>
+                <!-- Nav Item Burger -->
+                <li><a href="#SectionPresentation" onclick="closeBurger()">Home</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#testimonialSection" onclick="closeBurger()">Testimonials</a> </li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#partners" onclick="closeBurger()">Our Partners</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#contact" onclick="closeBurger()">Contact Us</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#Article" onclick="closeBurger()">Blog</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#ourTeam" onclick="closeBurger()">Our Team</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
+                <li><a href="#priceSection" onclick="closeBurger()">Price</a></li>
+                <!-- Nav Item Burger End -->
+            </ul>
+            <!-- End Mobile Navigation Menu -->
+        </div>
+        <div class="header-container">
+
+            <h1>Nom du thème</h1>
+            <!-- Desktop Navigation Menu -->
+            <img src="img/ci_hamburger.png" alt="Burger Icon" onclick="Burger()">
+            <div class="nav">
+                <ul>
+                    <!-- Nav Item -->
+                    <li><a href="#SectionPresentation">Home</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li><a href="#testimonialSection">Testimonials</a> </li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li><a href="#partners">Partners</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li><a href="#Article">Blog</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li><a href="#ourTeam">Team</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
+                    <li class="linkPrice"><a href="#priceSection">Price</a></li>
+                    <!-- Nav Item End -->
+                </ul>
+            </div>
+            <!-- End Desktop Navigation Menu -->
+        </div>
+
+
+    </header>
+
+    <main>
+        <!-- Presentation Section -->
+        <section class="SectionPresentation" id="SectionPresentation">
+            <!-- Container Presentation -->
+            <div class="ContainerPresentation">
+                <h2>Titre de la section</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar</p>
+                <a href="#" class="Discover">Discover</a>
+            </div>
+            <!-- End Container Presentation -->
+            <img src="img/placeholder.jpg" alt="img section top" class="imgPresentation">
+        </section>
+        <!-- End Presentation Section -->
+        <!-- Article Section -->
+        <section class="Article" id="Article">
+            <h2>Last Articles</h2>
+            <!-- Article Container -->
+            <div class="articleContainer">
+                <!-- Article -->
+                <div class="lastArticle">
+                    <a href="#">
+                        <!-- Article img -->
+                        <img src="img/placeholder.jpg" alt="img article">
+                        <!-- End Article img -->
+                        <!-- Author Of The Article -->
+                        <p>10 décembre 2021 - Auteur</p>
+                        <!-- End Author Of The Article -->
+                        <!-- Description Of The Article -->
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                            morbi
+                            integer adipiscing sapien. Risus...</p>
+                        <!-- End Description Of The Article -->
+                    </a>
+                </div>
+                <!-- End Article -->
+                <!-- Article -->
+                <div class="lastArticle">
+                    <a href="#">
+                        <!-- Article img -->
+                        <img src="img/placeholder.jpg" alt="img article">
+                        <!-- End Article img -->
+                        <!-- Author Of The Article -->
+                        <p>10 décembre 2021 - Auteur</p>
+                        <!-- End Author Of The Article -->
+                        <!-- Title Of The Article -->
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <!-- End Title Of The Article -->
+                        <!-- Description Of The Article -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                            morbi
+                            integer adipiscing sapien. Risus...</p>
+                        <!-- End Description Of The Article -->
+                    </a>
+                </div>
+                <!-- End Article -->
+                <!-- Article -->
+                <div class="lastArticle">
+                    <a href="#">
+                        <!-- Article img -->
+                        <img src="img/placeholder.jpg" alt="img article">
+                        <!-- End Article img -->
+                        <!-- Author Of The Article -->
+                        <p>10 décembre 2021 - Auteur</p>
+                        <!-- End Author Of The Article -->
+                        <!-- Title Of The Article -->
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <!-- End Title Of The Article -->
+                        <!-- Description Of The Article -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
+                            morbi
+                            integer adipiscing sapien. Risus...</p>
+                        <!-- Description Of The Article -->
+                    </a>
+                </div>
+                <!-- End Article -->
+            </div>
+            <!-- End Article Container -->
+        </section>
+        <!-- End Article Section -->
+        <!-- Price Section -->
+        <section class="priceSection" id="priceSection">
+            <!-- Title of Price Section -->
+            <h2>Price</h2>
+            <!-- Price Container -->
+            <div class="priceContainer">
+                <!-- Price Card -->
+                <div class="priceArticle">
+                    <!-- Price Amount -->
+                    <div class="priceAmount">
+                        80 €
+                    </div>
+                    <!-- End Price Amount -->
+                    <!-- Price Card Name -->
+                    <div class="priceName">
+                        <h3>Basic</h3>
+                    </div>
+                    <!-- End Price Card Name -->
+                    <div>
+                        <!-- Description Price Card -->
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <!-- End Description Price Card -->
+                        <!-- Button for discover -->
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
+                        <!-- End Button for discover -->
+                    </div>
+                </div>
+                <!-- End Price Card -->
+                <!-- Price Card -->
+                <div class="priceArticle">
+                    <!-- Price Amount -->
+                    <div class="priceAmount">
+                        120 €
+                    </div>
+                    <!-- end Price Amount -->
+                    <!-- Price Card Name -->
+                    <div class="priceName">
+                        <h3>Standard</h3>
+                    </div>
+                    <!-- End Price Card Name -->
+                    <div>
+                        <!-- Description Price Card -->
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <!-- End Description Price Card -->
+                        <!-- Button for discover -->
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
+                        <!-- Button for discover -->
+                        <div class="recommended">
+                            <img src="img/check.png" alt="img recommended">
+                            <h4>Recommended</h4>
+                        </div>
+                        <!-- End Button for discover -->
+                    </div>
+                </div>
+                <!-- End Price Card -->
+                <!-- Price Card -->
+                <div class="priceArticle">
+                    <!-- Price Amount -->
+                    <div class="priceAmount">
+                        200 €
+                    </div>
+                    <!-- End Price Amount -->
+                    <!-- Price Card Name -->
+                    <div class="priceName">
+                        <h3>Premium</h3>
+                    </div>
+                    <!-- End Price Card Name -->
+                    <div>
+                        <!-- Description Price Card -->
+                        <ul>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                            <li>Lorem ipsum dolor</li>
+                        </ul>
+                        <!-- End Description Price Card -->
+                        <!-- Button for discover -->
+                        <div class="buttonDiscover">
+                            <a href="#">Discover</a>
+                        </div>
+                        <!-- End Button for discover -->
+                    </div>
+                </div>
+                <!-- End Price Card -->
+            </div>
+            <!-- End Price Container -->
+
+        </section>
+        <!-- End Price Section -->
+        <!-- Testimonials Section -->
+        <section class="testimonialSection" id="testimonialSection">
+            <!-- Testimonial Title -->
+            <h2>Testimonials</h2>
+            <!-- Testimonials Container -->
+            <div class="testimonialContainer">
+                <!-- Testimonial Card -->
+                <div class="testimonial" id="testimonial1" style="display: block;">
+                    <!-- Testimonials -->
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                        sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
+                    <!-- End Testimonials -->
+                    <!-- Bottom Testimonial Container -->
+                    <div class="bottomTestimonial">
+                        <!-- Container Testimonial Author -->
+                        <div class="imgName">
+                            <!-- img author -->
+                            <img src="img/placeholder.jpg" alt="img user testimonial">
+                            <!-- Name author -->
+                            <h3>Prenom Nom</h3>
+                        </div>
+                        <!-- End Container Testimonial Author -->
+                        <!-- Container Stars Testimonial -->
+                        <div class="stars">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Black Star -->
+                            <img src="img/starBlack.png" alt="img star">
+                        </div>
+                        <!-- End Container Stars Testimonial -->
+                    </div>
+                    <!-- End Bottom Testimonial Container -->
+                </div>
+                <!-- End Testimonial Card -->
+                <!-- Testimonial Card -->
+                <div class="testimonial" id="testimonial2" style="display: none;">
+                    <!-- Testimonials -->
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                        sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
+                    <!-- End Testimonials -->
+                    <!-- Bottom Testimonial Container -->
+                    <div class="bottomTestimonial">
+                        <!-- Container Testimonial Author -->
+                        <div class="imgName">
+                            <!-- img author -->
+                            <img src="img/placeholder.jpg" alt="img user testimonial">
+                            <!-- Name author -->
+                            <h3>Prenom Nom</h3>
+                        </div>
+                        <!-- End Container Testimonial Author -->
+                        <!-- Container Stars Testimonial -->
+                        <div class="stars">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Black Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                        </div>
+                        <!-- End Container Stars Testimonial -->
+                    </div>
+                    <!-- Bottom Testimonial Container -->
+                </div>
+                <!-- End Testimonial Card -->
+                <!-- Testimonial Card -->
+                <div class="testimonial" id="testimonial3" style="display: none;">
+                    <!-- Testimonials -->
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit ac nunc egestas tempor viverra
+                        sollicitudin. Massa felis ac lectus justo, eleifend. Ut id venenatis...</p>
+                    <!-- End Testimonials -->
+                    <!-- Bottom Testimonial Container -->
+                    <div class="bottomTestimonial">
+                        <!-- Container Testimonial Author -->
+                        <div class="imgName">
+                            <!-- img author -->
+                            <img src="img/placeholder.jpg" alt="img user testimonial">
+                            <!-- Name author -->
+                            <h3>Prenom Nom</h3>
+                        </div>
+                        <!-- End Container Testimonial Author -->
+                        <!-- Container Stars Testimonial -->
+                        <div class="stars">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Yellow Star -->
+                            <img src="img/starYellow.png" alt="img star">
+                            <!-- Black Star -->
+                            <img src="img/starBlack.png" alt="img star">
+                            <!-- Black Star -->
+                            <img src="img/starBlack.png" alt="img star">
+                            <!-- Black Star -->
+                            <img src="img/starBlack.png" alt="img star">
+                        </div>
+                        <!-- End Container Stars Testimonial -->
+                    </div>
+                    <!-- End Bottom Testimonial Container -->
+                </div>
+                <!-- End Testimonial Card -->
+            </div>
+            <!-- End Testimonials Container -->
+
+        </section>
+        <!-- End Testimonials Section -->
+        <!-- Partners Section -->
+        <section class="partners" id="partners">
+            <!-- Partners Title -->
+            <h2>Our Partners</h2>
+            <!-- Container Partners -->
+            <div class="containerPartners">
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 1</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 2</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 3</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 4</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 5</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+                <!-- Partner Card -->
+                <div class="partner">
+                    <!-- img for card partner -->
+                    <img src="img/placeholder.jpg" alt="img partner">
+                    <!-- End img for card partner -->
+                    <!-- Name Partner -->
+                    <h3>Partner 6</h3>
+                    <!-- End Name Partner -->
+                </div>
+                <!-- End Partner Card -->
+            </div>
+            <!-- End Container Partners -->
+        </section>
+        <!-- End Partners Section -->
+        <!-- Team Section -->
+        <section class="ourTeam" id="ourTeam">
+            <h2>Our Team</h2>
+            <!-- Show People -->
+            <div class="showPeople" style="display: block;" id="people1show">
+                <!-- Author Message -->
+                <div class="message">
+                    <img src="img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
+                <!-- End Author Message -->
+                <div class="imgPeople">
+                    <img src="img/placeholder.jpg" alt="img people">
+                    <!-- Author informations -->
+                    <div class="teamName_LastName">
+                        <h3>Name LastName1</h3>
+                        <h4>Fonction</h4>
+                    </div>
+                    <!-- End Author informations -->
+                </div>
+            </div>
+            <!-- End Show People -->
+            <!-- Show People -->
+            <div class="showPeople" style="display: none;" id="people2show">
+                <!-- Author Message -->
+                <div class="message">
+                    <img src="img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
+                <!-- End Author Message -->
+                <div class="imgPeople">
+                    <img src="img/placeholder.jpg" alt="img people">
+                    <!-- Author informations -->
+                    <div class="teamName_LastName">
+                        <h3>Name LastName2</h3>
+                        <h4>Fonction</h4>
+                    </div>
+                    <!-- End Author informations -->
+                </div>
+            </div>
+            <!-- End Show People -->
+            <!-- Show People -->
+            <div class="showPeople" style="display: none;" id="people3show">
+                <!-- Author Message -->
+                <div class="message">
+                    <img src="img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                </div>
+                <!-- End Author Message -->
+                <div class="imgPeople">
+                    <img src="img/placeholder.jpg" alt="img people">
+                    <!-- Author informations -->
+                    <div class="teamName_LastName">
+                        <h3>Name LastName3</h3>
+                        <h4>Fonction</h4>
+                    </div>
+                    <!-- End Author informations -->
+                </div>
+            </div>
+            <!-- End Show People -->
+            <!-- Img team Container -->
+            <div class="teamContainer">
+                <!-- Img Team -->
+                <div class="team" onclick="DisplayFistUser()">
+                        <img src="img/placeholder.jpg" alt="img team">
+                </div>
+                <!-- End Img Team -->
+                <!-- Img Team -->
+                <div class="team" onclick="DisplaySecondUser()">
+                        <img src="img/placeholder.jpg" alt="img team">
+                </div>
+                <!-- End Img Team -->
+                <!-- Img Team -->
+                <div class="team" onclick="DisplayThirdUser()">
+                        <img src="img/placeholder.jpg" alt="img team">
+                </div>
+                <!-- End Img Team -->
+            </div>
+            <!-- End Img team Container -->
+        </section>
+        <!-- End Team Section -->
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <!-- Form Contact -->
+            <div class="Name_LastName">
+                <!-- Form Input First Name -->
+                <input type="text" placeholder="First Name">
+                <!-- End Form Input First Name -->
+                <!-- Form Input Last Name -->
+                <input type="text" placeholder="Last Name">
+                <!-- End Form Input Last Name -->
+            </div>
+            <div class="Email_Phone">
+                <!-- Form Input Email -->
+                <input type="email" placeholder="Email">
+                <!-- End Form Input Email -->
+                <!-- Form Input Phone Number -->
+                <input type="tel" placeholder="Phone Number">
+                <!-- End Form Input Phone Number -->
+            </div>
+            <!-- Form Input Message -->
+            <textarea rows="5" placeholder="Message"></textarea>
+            <!-- End Form Input Message -->
+            <!-- Form Button Send -->
+            <div class="button">
+                <a href="#">Send</a>
+            </div>
+            <!-- End Form Button Send -->
+            <!-- End Form Contact -->
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <div class="aboutFollow">
+                <!-- Footer About Us -->
+                <h2>About us</h2>
+                <!-- About Content -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At tellus elementum eu dolor vivamus
+                    maecenas
+                    platea sit. Gravida iaculis sagittis maecenas sed placerat facilisis. Mi nulla tincidunt elementum
+                    eu
+                </p>
+                <!-- End About Content -->
+                <!-- End Footer About Us -->
+                <h2>Follow us</h2>
+                <!-- Footer Social Networks -->
+                <div class="SocialNetworks">
+                    <!-- Facebook Social Networks -->
+                    <a href="#"><img src="img/Facebook.png" alt="img Facebook"></a>
+                    <!-- End Facebook Social Networks -->
+                    <!-- Instagram Social Networks -->
+                    <a href="#"><img src="img/Instagram.png" alt="img Instagram"></a>
+                    <!-- End Instagram Social Networks -->
+                    <!-- Twitter Social Networks -->
+                    <a href="#"><img src="img/Twitter.png" alt="img Twitter"></a>
+                    <!-- End Twitter Social Networks -->
+                    <!-- Linkedin Social Networks -->
+                    <a href="#"><img src="img/LinkedIn.png" alt="img Linkedin"></a>
+                    <!-- End Linkedin Social Networks -->
+                </div>
+                <!-- End Footer Social Networks -->
+            </div>
+            <!-- Link -->
+            <div class="Links">
+                <h2>Links</h2>
+                <!-- Footer link Item -->
+                <a href="#">Home</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Last Articles</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Price</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Testimonial</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Partner</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Our Team</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
+                <a href="#">Contact</a>
+                <!-- End Footer link Item -->
+            </div>
+            <!-- End Link -->
+            <!-- Footer Newsletter -->
+            <div class="Newsletter">
+                <h2>Newsletter</h2>
+                <input type="text" placeholder="Email...">
+                <a href="#">Send</a>
+            </div>
+            <!-- End Footer Newsletter -->
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+    <!-- Load Javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
