@@ -5,58 +5,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Css avancé</title>
+    <!-- Name of the website -->
+    <title>Theme Landing Page</title>
 </head>
 
 <body>
     <header>
         <div class="menuBurger" id="menuburger" style="display: none;">
+            <!-- Cross for close the burger menu -->
             <div class="closeIcon" id="closeIcon">
+                <!-- img cross burger menu -->
                 <img src="img/close.png" onclick="closeBurger()" alt="button close burger">
             </div>
+            <!-- End Cross for close the burger menu -->
+            <!-- Mobile Navigation Menu -->
             <ul>
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Home</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Testimonials</a> </li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Our Partners</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Contact Us</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Blog</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Our Team</a></li>
+                <!-- Nav Item Burger End -->
+                <!-- Nav Item Burger -->
                 <li><a href="#" onclick="closeBurger()">Price</a></li>
+                <!-- Nav Item Burger End -->
             </ul>
+            <!-- End Mobile Navigation Menu -->
         </div>
         <div class="header-container">
+
             <h1>Nom du thème</h1>
+            <!-- Desktop Navigation Menu -->
             <img src="img/ci_hamburger.png" alt="Burger Icon" onclick="Burger()">
             <div class="nav">
                 <ul>
+                    <!-- Nav Item -->
                     <li><a href="#">Home</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li><a href="#">Testimonials</a> </li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li><a href="#">Partners</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li><a href="#">Contact</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li><a href="#">Blog</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li><a href="#">Team</a></li>
+                    <!-- Nav Item End -->
+                    <!-- Nav Item -->
                     <li class="linkPrice"><a href="#">Price</a></li>
+                    <!-- Nav Item End -->
                 </ul>
             </div>
+            <!-- End Desktop Navigation Menu -->
         </div>
 
 
     </header>
 
     <main>
+        <!-- Presentation Section -->
         <section class="SectionPresentation">
+            <!-- Container Presentation -->
             <div class="ContainerPresentation">
                 <h2>Titre de la section</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar</p>
                 <a href="#" class="Discover">Discover</a>
             </div>
+            <!-- End Container Presentation -->
             <img src="img/Futuristic HUD 1.png" alt="img section top" class="imgPresentation">
         </section>
-
+        <!-- End Presentation Section -->
+        <!-- Article Section -->
         <section class="Article">
             <h2>Last Articles</h2>
+            <!-- Article Container -->
             <div class="articleContainer">
+                <!-- Article -->
                 <div class="lastArticle">
                     <img src="img/articleImg.jpg" alt="img article">
                     <p>10 décembre 2021 - Auteur</p>
@@ -65,7 +109,8 @@
                         morbi
                         integer adipiscing sapien. Risus...</p>
                 </div>
-
+                <!-- End Article -->
+                <!-- Article -->
                 <div class="lastArticle">
                     <img src="img/articleImg.jpg" alt="img article">
                     <p>10 décembre 2021 - Auteur</p>
@@ -74,18 +119,24 @@
                         morbi
                         integer adipiscing sapien. Risus...</p>
                 </div>
-
+                <!-- End Article -->
+                <!-- Article -->
                 <div class="lastArticle">
+                    <!-- Article img -->
                     <img src="img/articleImg.jpg" alt="img article">
+                    <!-- End Article img -->
                     <p>10 décembre 2021 - Auteur</p>
                     <h3>Lorem ipsum dolor sit amet</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pulvinar ullamcorper nisl nibh arcu
                         morbi
                         integer adipiscing sapien. Risus...</p>
                 </div>
+                <!-- End Article -->
             </div>
+            <!-- End Article Container -->
         </section>
-
+        <!-- End Article Section -->
+        <!-- Price Section -->
         <section class="priceSection">
             <h2>Price</h2>
             <div class="priceContainer">
@@ -152,7 +203,8 @@
             </div>
 
         </section>
-
+        <!-- End Price Section -->
+        <!-- Testimonials Section -->
         <section class="testimonialSection">
             <h2>Testimonials</h2>
             <div class="testimonialContainer">
@@ -212,7 +264,8 @@
             </div>
 
         </section>
-
+        <!-- End Testimonials Section -->
+        <!-- Partners Section -->
         <section class="partners">
             <h2>Our Partners</h2>
             <div class="containerPartners">
@@ -227,7 +280,7 @@
                     <!-- img for card partner -->
                     <img src="img/img_partner.jpg" alt="img partner">
                     <!-- End img for card partner -->
-                    <h3>Partner 2</h3>  
+                    <h3>Partner 2</h3>
                 </div>
                 <!-- End Partner Card -->
 
@@ -265,13 +318,15 @@
                 <!-- End Partner Card -->
             </div>
         </section>
-
+        <!-- End Partners Section -->
+        <!-- Team Section -->
         <section class="ourTeam">
             <h2>Our Team</h2>
             <div class="showPeople" style="display: block;" id="people1show">
                 <div class="message">
                     <img src="img/quote.png" alt="quote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
                 <div class="imgPeople">
                     <img src="img/imgTeam.png" alt="img people">
@@ -285,7 +340,8 @@
             <div class="showPeople" style="display: none;" id="people2show">
                 <div class="message">
                     <img src="img/quote.png" alt="quote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
                 <div class="imgPeople">
                     <img src="img/imgTeam.png" alt="img people">
@@ -299,7 +355,8 @@
             <div class="showPeople" style="display: none;" id="people3show">
                 <div class="message">
                     <img src="img/quote.png" alt="quote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing, Lorem ipsum dolor sit amet, consectetur
+                        adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                 </div>
                 <div class="imgPeople">
                     <img src="img/imgTeam.png" alt="img people">
@@ -321,59 +378,107 @@
                 </div>
             </div>
         </section>
-
+        <!-- End Team Section -->
+        <!-- Contact Section -->
         <section class="contact">
             <h2>Contact</h2>
+            <!-- Form Contact -->
             <div class="Name_LastName">
+                <!-- Form Input First Name -->
                 <input type="text" placeholder="First Name">
+                <!-- End Form Input First Name -->
+                <!-- Form Input Last Name -->
                 <input type="text" placeholder="Last Name">
+                <!-- End Form Input Last Name -->
             </div>
             <div class="Email_Phone">
+                <!-- Form Input Email -->
                 <input type="email" placeholder="Email">
+                <!-- End Form Input Email -->
+                <!-- Form Input Phone Number -->
                 <input type="tel" placeholder="Phone Number">
+                <!-- End Form Input Phone Number -->
             </div>
+            <!-- Form Input Message -->
             <textarea rows="5" placeholder="Message"></textarea>
+            <!-- End Form Input Message -->
+            <!-- Form Button Send -->
             <div class="button">
                 <a href="#">Send</a>
             </div>
+            <!-- End Form Button Send -->
+            <!-- End Form Contact -->
         </section>
+        <!-- End Contact Section -->
 
     </main>
-
+    <!-- Footer Section -->
     <footer>
         <div class="footer">
             <div class="aboutFollow">
+                <!-- Footer About Us -->
                 <h2>About us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At tellus elementum eu dolor vivamus
                     maecenas
                     platea sit. Gravida iaculis sagittis maecenas sed placerat facilisis. Mi nulla tincidunt elementum
                     eu
                 </p>
+                <!-- End Footer About Us -->
                 <h2>Follow us</h2>
+                <!-- Footer Social Networks -->
                 <div class="SocialNetworks">
-                    <img src="img/Facebook.png" alt="img Facebook">
-                    <img src="img/Instagram.png" alt="img Instagram">
-                    <img src="img/Twitter.png" alt="img Twitter">
-                    <img src="img/LinkedIn.png" alt="img Linkedin">
+                    <!-- Facebook Social Networks -->
+                    <a href="#"><img src="img/Facebook.png" alt="img Facebook"></a>
+                    <!-- End Facebook Social Networks -->
+                    <!-- Instagram Social Networks -->
+                    <a href="#"><img src="img/Instagram.png" alt="img Instagram"></a>
+                    <!-- End Instagram Social Networks -->
+                    <!-- Twitter Social Networks -->
+                    <a href="#"><img src="img/Twitter.png" alt="img Twitter"></a>
+                    <!-- End Twitter Social Networks -->
+                    <!-- Linkedin Social Networks -->
+                    <a href="#"></a><img src="img/LinkedIn.png" alt="img Linkedin"></a>
+                    <!-- End Linkedin Social Networks -->
                 </div>
+                <!-- End Footer Social Networks -->
             </div>
+            <!-- Link -->
             <div class="Links">
                 <h2>Links</h2>
+                <!-- Footer link Item -->
                 <a href="#">Home</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Last Articles</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Price</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Testimonial</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Partner</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Our Team</a>
+                <!-- End Footer link Item -->
+                <!-- Footer link Item -->
                 <a href="#">Contact</a>
+                <!-- End Footer link Item -->
             </div>
+            <!-- End Link -->
+            <!-- Footer Newsletter -->
             <div class="Newsletter">
                 <h2>Newsletter</h2>
                 <input type="text" placeholder="Email...">
                 <a href="#">Send</a>
             </div>
+            <!-- End Footer Newsletter -->
         </div>
     </footer>
+    <!-- End Footer Section -->
+    <!-- Load Javascript -->
     <script src="js/script.js"></script>
 </body>
 

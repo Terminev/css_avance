@@ -1,3 +1,4 @@
+
 const people1show = document.getElementById('people1show')
 const people2show = document.getElementById('people2show')
 const people3show = document.getElementById('people3show')

@@ -1,8 +1,28 @@
+/*================================================================*/
+/*  SUMMARY
+
+	1. BURGER
+	2. HEADER
+	3. SECTION PRESENTATION
+	4. SECTION ARTICLES
+	5. SECTION PRICE
+	6. SECTION TESTIMONIAL
+	7. SECTION PARTNERS
+	8. SECTION TEAM
+	9. SECTION CONTACT
+	10. FOOTER
+	11. RESPONSIVE SCREEN >= 700PX
+	12. RESPONSIVE SCREEN >= 1024PX
+
+/*
+/*================================================================*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Load Fonts */
 @font-face {
     font-family: "Roboto-Medium";
     src: url("/fonts/Roboto/Roboto-Medium.ttf");
@@ -20,7 +40,7 @@
     src: url("/fonts/Open Sans/OpenSans-Bold.ttf");
 }
 
-/* Burger */
+/* 01 - Burger */
 .menuBurger {
     text-align: center;
     height: 100vh;
@@ -47,7 +67,7 @@
 
 /* End Burger */
 
-/* Header */
+/* 02 - Header */
 
 header {
     background-color: #451CC0;
@@ -111,7 +131,7 @@ nav ul li {
 
 /* End Header */
 
-/* Section Presentation */
+/* 03 - Section Presentation */
 
 .SectionPresentation {
     text-align: center;
@@ -149,7 +169,7 @@ nav ul li {
 
 /* End Section Presentation */
 
-/* Section Articles */
+/* 04 - Section Articles */
 .Article {
     background-color: #FAF8FB;
     padding-bottom: 10px;
@@ -197,7 +217,7 @@ nav ul li {
 
 /* End Section Articles */
 
-/* Section Price */
+/* 05 - Section Price */
 
 .priceSection {
     padding-top: 30px;
@@ -300,7 +320,7 @@ nav ul li {
 
 /* End Section Price */
 
-/* Section Testimonial */
+/* 06 - Section Testimonial */
 
 .testimonialSection {
     background-color: #FAF8FB;
@@ -358,7 +378,7 @@ nav ul li {
 
 /* End Section Testimonial */
 
-/* Section Partners */
+/* 07 - Section Partners */
 .partners {
     padding: 30px 0;
 }
@@ -392,7 +412,7 @@ nav ul li {
 
 /* End Section Partners */
 
-/* Section Team */
+/* 08 - Section Team */
 
 .ourTeam {
     background-color: #FAF8FB;
@@ -460,7 +480,7 @@ nav ul li {
 
 /* End Section Team */
 
-/* Section Contact */
+/* 09 - Section Contact */
 .contact {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -528,7 +548,7 @@ nav ul li {
 
 /* End Section Contact */
 
-/* Footer */
+/* 10 - Footer */
 
 footer {
     background: linear-gradient(#451CC0, #451cc096);
@@ -603,7 +623,7 @@ footer h2 {
 
 /* responsive */
 
-/* Reponsive Screen >= 700px */
+/* 11 - Reponsive Screen >= 700px */
 
 @media screen and (min-width: 700px) {
     .priceArticle {
@@ -680,7 +700,7 @@ footer h2 {
 
 /* End Reponsive Screen >= 700px */
 
-/* Reponsive Screen >= 1024px */
+/* 12 - Reponsive Screen >= 1024px */
 @media screen and (min-width: 1024px) {
 
     /* burger */
