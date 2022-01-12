@@ -55,17 +55,20 @@ header h1 {
 }
 .nav ul{
     display: flex;
+    align-items: center;
 }
 .nav ul li {
     list-style: none;
+    padding-left: 10px;
 }
 .nav ul li a {
+    
     color: white;
     text-decoration: none;
 }
 .linkPrice a {
-    font-size: 25px;
-    padding: 10px;
+    font-size: 24px;
+    padding: 10px 20px;
     background-color: #FF7D3B;
     border-radius: 10px;
 }
@@ -613,6 +616,9 @@ footer h2 {
         }
         .menuBurger {
             display: none;
+        }
+        .header-container{
+            width: 95%;
         }
         .header-container img {
             display: none;
