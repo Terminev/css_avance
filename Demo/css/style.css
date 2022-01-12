@@ -20,6 +20,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 /* Load Fonts */
@@ -139,7 +140,6 @@ nav ul li {
 
 .SectionPresentation {
     text-align: center;
-    height: 90vh;
     display: grid;
     align-content: center;
 }
@@ -210,6 +210,7 @@ nav ul li {
     padding-top: 15px;
     font-family: "Roboto-Medium";
     font-weight: 400;
+    color: black;
 }
 
 .lastArticle p {
@@ -217,6 +218,7 @@ nav ul li {
     width: 95%;
     margin: 0 auto;
     padding-top: 15px;
+    color: black;
 }
 
 /* End Section Articles */
@@ -260,6 +262,7 @@ nav ul li {
     padding-top: 60px;
     padding-bottom: 35px;
     font-family: "Roboto-Bold";
+    
 }
 
 .priceArticle ul {
