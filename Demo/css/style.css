@@ -12,7 +12,7 @@
 	9. SECTION CONTACT
 	10. FOOTER
 	11. RESPONSIVE SCREEN >= 700PX
-	12. RESPONSIVE SCREEN >= 1050PX
+	12. RESPONSIVE SCREEN >= 1024PX
 
 /*
 /*================================================================*/
@@ -726,8 +726,8 @@ footer h2 {
 
 /* End Reponsive Screen >= 700px */
 
-/* 12 - Reponsive Screen >= 1050px */
-@media screen and (min-width: 1050px) {
+/* 12 - Reponsive Screen >= 1024px */
+@media screen and (min-width: 1024px) {
 
     /* burger */
     .nav {
@@ -953,6 +953,6 @@ footer h2 {
 
 }
 
-/* End Reponsive Screen >= 1050px */
+/* End Reponsive Screen >= 1024px */
 
 /* End Responsive */
