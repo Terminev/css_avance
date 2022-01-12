@@ -490,7 +490,7 @@ footer h2 {
     font-weight: bold;
 }
 
-.AboutFollow p {
+.footer p {
     font-size: 16px;
     font-weight: 400;
     padding: 15px 0;
@@ -668,7 +668,7 @@ footer h2 {
             margin: 0 auto;
         }
         .priceArticle{
-            width: 30%;
+            width: 300px;
         }
         /* responsive for testimonials */
         .testimonialSection h2 {
@@ -684,7 +684,37 @@ footer h2 {
         .containerPartners {
             width: 90%;
         }
+
+        
         /* responsive for team */
+
+        /* responsive for footer */
+        .footer{
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            justify-content: space-between;
+            text-align: left;
+            align-items: baseline;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .SocialNetworks{
+            margin: 21px 0;
+            justify-content: space-between;
+        }
+        .aboutFollow {
+            width: 30%;
+        }
+
+        .Links{
+            width: 10%;
+        }
+        .Newsletter {
+            width: 30%;
+        }
+        
     }
 /* End Reponsive Screen >= 1024px */
 
