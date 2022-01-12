@@ -378,6 +378,7 @@ nav ul li {
 .imgName img {
     border-radius: 50%;
     width: 40px;
+    height: 40px;
 }
 
 /* End Section Testimonial */
@@ -461,6 +462,10 @@ nav ul li {
 
 .imgPeople {
     text-align: center;
+    padding-top: 30px;
+}
+.imgPeople img {
+    width: 195px;
 }
 
 .teamName_LastName {
