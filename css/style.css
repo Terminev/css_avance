@@ -50,22 +50,27 @@ header h1 {
     margin: 0 auto;
     align-items: center;
 }
+
 .nav {
     display: none;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     align-items: center;
 }
+
 .nav ul li {
     list-style: none;
     padding-left: 10px;
 }
+
 .nav ul li a {
-    
+
     color: white;
     text-decoration: none;
 }
+
 .linkPrice a {
     font-size: 24px;
     padding: 10px 20px;
@@ -249,12 +254,14 @@ nav ul li {
     margin: 0 auto;
     justify-content: center;
 }
+
 .recommended {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
 }
+
 .recommended h4 {
     font-size: 14px;
     padding-left: 10px;
@@ -368,6 +375,7 @@ nav ul li {
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
+    padding-top: 30px;
 }
 
 .teamContainer img {
@@ -521,6 +529,10 @@ footer h2 {
     padding-top: 10px;
 }
 
+.Newsletter {
+    display: inline-block;
+}
+
 .Newsletter h2 {
     padding: 15px 0;
 }
@@ -547,175 +559,230 @@ footer h2 {
 
 /* Reponsive Screen >= 700px */
 
-    @media screen and (min-width: 700px){
-        .priceArticle {
-            width: 70%;
-        }
-        .testimonialContainer {
-            width: 70%;
-        }
-        .containerPartners {
-            width: 70%;
-        }
-        .SectionPresentation{
-            place-items: center;
-        }
-        .lastArticle {
-            width: 70%;
-        }
-        .partner {
-            margin: 10px;
-        }
-        .teamContainer {
-            width: 70%;
-        }
-        .message {
-            width: 70%;
-            margin: 0 auto;
-        }
-        .message p{
-            margin: 0 auto;
-        }
-        .teamName_LastName {
-            width: 50%;
-            margin: 0 auto;
-        }
-        .Name_LastName {
-            display: flex;
-            width: 70%;
-            justify-content: space-between;
-        }
-        .Name_LastName input{
-            width: 40%;
-        }
-        .Email_Phone {
-            display: flex;
-            width: 70%;
-            justify-content: space-between;
-        }
-        .Email_Phone input{
-            width: 40%;
-        }
-        .contact textarea {
-            width:calc(70% - 20px);
-        }
-        .SectionPresentation img {
-            width: 550px;
-        }
-
+@media screen and (min-width: 700px) {
+    .priceArticle {
+        width: 70%;
     }
+
+    .testimonialContainer {
+        width: 70%;
+    }
+
+    .containerPartners {
+        width: 70%;
+    }
+
+    .SectionPresentation {
+        place-items: center;
+    }
+
+    .lastArticle {
+        width: 70%;
+    }
+
+    .partner {
+        margin: 10px;
+    }
+
+    .teamContainer {
+        width: 70%;
+    }
+
+    .message {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .message p {
+        margin: 0 auto;
+    }
+
+    .teamName_LastName {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .Name_LastName {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .Name_LastName input {
+        width: 40%;
+    }
+
+    .Email_Phone {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+    .Email_Phone input {
+        width: 40%;
+    }
+
+    .contact textarea {
+        width: calc(70% - 20px);
+    }
+
+    .SectionPresentation img {
+        width: 550px;
+    }
+
+}
 
 /* End Reponsive Screen >= 700px */
 
 /* Reponsive Screen >= 1024px */
-    @media screen and (min-width: 1024px){
-        /* burger */
-        .nav {
-            display: flex;
-            align-items: center;
-        }
-        .menuBurger {
-            display: none;
-        }
-        .header-container{
-            width: 95%;
-        }
-        .header-container img {
-            display: none;
-        }
-        .SectionPresentation {
-            display: flex;
-            width: 80%;
-            margin: 0 auto;
-            height: 60vh;
-            justify-content: center;
-        }
-        .ContainerPresentation {
-            text-align: left;
-        }
-        .SectionPresentation img {
-            margin-top: 0;
-        }
-        .SectionPresentation p {
-            width: auto;
-        }
-        /* Responsive for article */
-        .articleContainer {
-            width: 90%;
-            display: flex;
-            margin: 0 auto;
-        }
-        .Article h2 {
-            font-size: 36px;
-        }
-        .lastArticle h3 {
-            font-size: 22px;
-        }
-        .lastArticle {
-            width: 30%;
-        }
-        .lastArticle img {
-            height: 150px;
-        }
+@media screen and (min-width: 1024px) {
 
-        /* responsive for price */
-        .priceSection h2{
-            font-size: 36px;
-        }
-        .priceContainer {
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
-        }
-        .priceArticle{
-            width: 300px;
-        }
-        /* responsive for testimonials */
-        .testimonialSection h2 {
-            font-size: 36px;
-        }
-        .testimonialContainer {
-            width: 50%;
-        }
-        /* responsive for partners */
-        .partners h2{
-            font-size: 36px;
-        }
-        .containerPartners {
-            width: 90%;
-        }
-
-        
-        /* responsive for team */
-
-        /* responsive for footer */
-        .footer{
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
-            justify-content: space-between;
-            text-align: left;
-            align-items: baseline;
-        }
-        .footer p {
-            margin: 0;
-        }
-        .SocialNetworks{
-            margin: 21px 0;
-            justify-content: space-between;
-        }
-        .aboutFollow {
-            width: 30%;
-        }
-
-        .Links{
-            width: 10%;
-        }
-        .Newsletter {
-            width: 30%;
-        }
-        
+    /* burger */
+    .nav {
+        display: flex;
+        align-items: center;
     }
+
+    .menuBurger {
+        display: none;
+    }
+
+    .header-container {
+        width: 95%;
+    }
+
+    .header-container img {
+        display: none;
+    }
+
+    .SectionPresentation {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    .ContainerPresentation {
+        text-align: left;
+    }
+
+    .SectionPresentation img {
+        margin-top: 0;
+    }
+
+    .SectionPresentation p {
+        width: auto;
+    }
+
+    /* Responsive for article */
+    .articleContainer {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .Article h2 {
+        font-size: 36px;
+    }
+
+    .lastArticle h3 {
+        font-size: 22px;
+    }
+
+    .lastArticle {
+        width: 325px;
+    }
+
+    .lastArticle img {
+        height: 150px;
+    }
+
+    /* responsive for price */
+    .priceSection h2 {
+        font-size: 36px;
+    }
+
+    .priceContainer {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .priceArticle {
+        width: 300px;
+    }
+
+    /* responsive for testimonials */
+    .testimonialSection h2 {
+        font-size: 36px;
+    }
+
+    .testimonialContainer {
+        width: 50%;
+    }
+
+    /* responsive for partners */
+    .partners h2 {
+        font-size: 36px;
+    }
+
+    /* responsive for team */
+    .showPeople {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .teamContainer {
+        width: 70%;
+    }
+
+    .message {
+        width: auto;
+        margin: 0;
+    }
+
+    .team {
+        padding: 10px 60px;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+    }
+
+    /* responsive for footer */
+    .footer {
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        text-align: left;
+        align-items: baseline;
+    }
+
+    .footer p {
+        margin: 0;
+    }
+
+    .SocialNetworks {
+        margin: 21px 0;
+        justify-content: space-between;
+    }
+
+    .aboutFollow {
+        width: 30%;
+    }
+
+    .Links {
+        width: 10%;
+    }
+
+    .Newsletter {
+        width: 30%;
+    }
+
+}
+
 /* End Reponsive Screen >= 1024px */
 
 /* End Responsive */
