@@ -17,15 +17,15 @@
     <main>
         <div class="nav">
             <ul>
-                <li>Installation</li>
-                <li>HTML structure</li>
-                <li>CSS structure</li>
-                <li>Javascript structure</li>
-                <li>Javascript animation</li>
+                <li onclick="InstallationShow()">Installation</li>
+                <li onclick="HTMLShow()">HTML structure</li>
+                <li onclick="CSSShow()">CSS structure</li>
+                <li onclick="JavascriptShow()">Javascript structure</li>
+                <li onclick="JavascriptAnimationShow()">Javascript animation</li>
             </ul>
         </div>
         <section class="elementContainer">
-            <section class="thank" style="display: block;">
+            <section class="thank" id="thank" style="display: block;">
                 <h2>Thank You !</h2>
                 <p class="Pthank">I would like to start by thanking you for buying my CSS theme. <br> <br>
 
@@ -44,7 +44,7 @@
                 <h3>Javascript animation</h3>
                 <p class="SummaryDescription">- I will show you how Javascript animation works</p>
             </section>
-            <section class="Installation" style="display: none;">
+            <section class="Installation" id="Installation" style="display: none;">
                 <h2>Installation</h2>
                 <p class="description">To install the CSS theme on your computer, simply unzip the .rar file you
                     downloaded. Inside this
@@ -69,7 +69,7 @@
 
                     So if you want to change a specific element you just have to look at the summary and change the
                     desired element</p>
-                <img src="img/summaryCSS.png" alt="img css structure">
+                <img src="img/summaryCSS.png" alt="img summary structure">
                 <img src="img/cssStructure.png" alt="img css structure">
             </section>
             <section class="JS" id="JS" style="display: none;">
@@ -77,17 +77,46 @@
                 <p class="description">I will now present you the javascript structure, as the rest of the code all the
                     javascript part has been fully commented. <br><br>
                     You can see below that all the imports are done at the top of the document :</p>
-                <img src="img/jsStructure.png" alt="img css structure">
+                <img src="img/jsStructure.png" alt="img js structure">
                 <p class="description">and below you can find all the functions used in the CSS theme : </p>
-                <img src="img/jsFunction.png" alt="img css structure">
+                <img src="img/jsFunction.png" alt="img js function">
             </section>
-            <section class="JSanimation" id="JSanimation">
+            <section class="JSanimation" id="JSanimation" style="display: none;">
                 <h2>Javascript Animation</h2>
-                <p class="description"></p>
+                <p class="description">If you want to change the animation in the testimonials, which allows you to
+                    change your mind automatically every X seconds. <br><br>
 
+                    You just have to go to the function that you can find attached on the image, and change the number
+                    present on line 67, 8000 = 8 seconds, ex: if you want to put 10 seconds you will have to change the
+                    present value by 10000</p>
+                <img src="img/testiAnimation.png" alt="Testimonial animation">
+                <p class="description">If you want to add other notices in the loop, you just have to create a new div
+                    in the HTML code (you can simply copy/paste a testimonial card) and change the id with for example
+                    "testimonial4" or "testimonial5"</p>
+                <img src="img/TestiHTML.png" alt="testiImg">
+                <p class="description">Once this is done you will have to import your new element in the script.js file
+                </p>
+                <img src="img/testiImport.png" alt="Testi import">
+                <p class="description">And to play the loop with the new notice you will just have to change the
+                    Testimonial function, adding an else if and adding a new Else IF condition containing the variable
+                    you have imported above</p>
+                <img src="img/TestiFunctionEdit.png" alt="Testi Function Edit">
+
+                <hr> <br>
+                
+                <p class="description">If you want to add a person in your team you have to copy/paste an HTML element with the name "Show People" and change the id by increasing by 1
+                </p>
+                <img src="img/showpeople.png" alt="ShowPeople HTML">
+                <p class="description">Then you have to import your HTML element, with a new const
+                </p>
+                <img src="img/peopleShow.png" alt="people show">
+                <p class="description">And finally you have to create a new function, with the name of the new const you have created
+                </p>
+                <img src="img/FunctionDisplayPeople.png" alt="img function show people">
             </section>
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
